@@ -41,7 +41,6 @@ variable "is_jx2" {
   default     = false
   type        = bool
   description = "Flag to specify if jx2 related resources need to be created"
-  default     = ""
 }
 
 variable "jx_git_url" {
